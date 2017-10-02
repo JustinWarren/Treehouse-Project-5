@@ -1,6 +1,7 @@
 //**Base Style**/
 
 
+
 .container {
 	margin: 35px;
 }
@@ -26,14 +27,37 @@
 
 .nav__item {
 	list-style: none;
+	font-size: 1.25em;
 	margin: 10px 0px;
 	padding: 10px 10px;
 	border: solid 1px black;
 	border-radius: 5px;
-	background-color: MediumSeaGreen;
+	/**background-color: MediumSeaGreen;   -  This is a good color for buttons.  Figure out how to use hover for links!**/
 }
 
 ul.nav {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 0px 10px;
+}
+
+.grid__col--12 {
+	padding: 0px 10px;
+	text-align: left;
+	font-size: 1.25em;
+}
+
+.headline--secondary {
+	text-align: left;
+	font-size: 1.5em;
+	padding: 0px 10px;
+}
+
+.headline--primary {
+	color: #abe394;
+	font-family: arial;
+}
+
+.blockquote {
+	border-left: solid 7px MediumSeaGreen;
+	border-radius: 3px;
+	padding-right: 5px;
 }

@@ -1,0 +1,39 @@
+//**Base Style**/
+
+
+.container {
+	margin: 35px;
+}
+
+.grid__row {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+/**Image logo at top**/
+.grid__col--3 {
+	text-align: center;
+} 
+
+.img--logo {
+	padding: 10px 0px;
+}
+/**Top navigation bar**/
+.grid__col--9 {
+	text-align: center;
+}
+
+.nav__item {
+	list-style: none;
+	margin: 10px 0px;
+	padding: 10px 10px;
+	border: solid 1px black;
+	border-radius: 5px;
+	background-color: MediumSeaGreen;
+}
+
+ul.nav {
+	padding-left: 10px;
+	padding-right: 10px;
+}
